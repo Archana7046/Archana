@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@500&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  transition:0.7s;
+  
+}
+.body{
+    background-image: url(/Images/background.png);
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  height: 100vh;
+
+}
+.header a{
+font-family: 'Noto Sans JP', sans-serif;
+ text-decoration:none;
+  color:black;
+}
+
+
+.header{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 50px;
+  background: #33A0D9;
+  position: sticky;
+  top:0px;
+  
+}
+.header .options{
+  display: flex;
+  gap: 70px;
+  font-weight: 700;
+  align-items:center;
+}
+.login-btn{
+  background-color: white;
+  border-radius: 8px;
+  padding: 8px 30px;
+}
+.container{
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 10%;
+ margin-right: 5%;
+ margin-bottom: 10%;
+ justify-content: center;
+
+}
+.footer{
+    background: #2180B3;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+  height: 50px;
+    margin-top: 400px;
+  }
+  .footer ul{
+    display: inline;
+  object-fit: contain;
+    list-style:none;
+    gap: 20px;
+    
+  }
+  .btn{
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+   
+    margin-top: 5%;
+    margin-left: -0%;
+
+    
+  }
+  .btn.h2{
+    color: white;
+  }
